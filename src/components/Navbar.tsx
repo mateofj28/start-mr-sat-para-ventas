@@ -1,10 +1,19 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
+    const [scrolled, setScrolled] = useState(false)
     const [activeTab, setActiveTab] = useState<'personal' | 'empresas'>('personal')
     const location = useLocation()
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrolled(window.scrollY > window.innerHeight * 0.8)
+        }
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [])
 
     const personalLinks = [
         { name: 'RESIDENCIAL', path: '/' },
@@ -20,11 +29,14 @@ function Navbar() {
 
     return (
         <>
-            <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
+            <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+                    ? 'bg-black/70 backdrop-blur-xl border-b border-white/10 shadow-lg'
+                    : 'bg-transparent'
+                }`}>
                 <nav className="flex items-center justify-between px-8 py-5">
                     {/* Logo */}
-                    <Link to="/" className="text-white text-lg font-bold tracking-[0.3em] uppercase">
-                        S T A R K
+                    <Link to="/" className="text-white text-sm font-bold tracking-[0.15em] uppercase">
+                        STARLINK LATINOAMERICA
                     </Link>
 
                     {/* Hamburger icon */}

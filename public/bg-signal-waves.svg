@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <path d="M720 850 Q720 650 720 550" stroke="rgba(255,255,255,0.3)" fill="none" stroke-width="2"/>
+  <path d="M580 480 Q720 350 860 480" stroke="rgba(255,255,255,0.4)" fill="none" stroke-width="1.5"/>
+  <path d="M500 400 Q720 240 940 400" stroke="rgba(255,255,255,0.35)" fill="none" stroke-width="1.5"/>
+  <path d="M420 320 Q720 130 1020 320" stroke="rgba(255,255,255,0.3)" fill="none" stroke-width="1.5"/>
+  <path d="M340 240 Q720 20 1100 240" stroke="rgba(255,255,255,0.25)" fill="none" stroke-width="1.5"/>
+  <path d="M260 160 Q720 -90 1180 160" stroke="rgba(255,255,255,0.2)" fill="none" stroke-width="1.5"/>
+  <circle cx="720" cy="550" r="6" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="650" cy="400" r="4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="800" cy="350" r="4" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="550" cy="300" r="3" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="900" cy="270" r="3" fill="rgba(255,255,255,0.35)"/>
+</svg>

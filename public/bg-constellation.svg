@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <circle cx="120" cy="80" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="300" cy="200" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="500" cy="120" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="750" cy="60" r="3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="950" cy="180" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="1150" cy="90" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="1350" cy="150" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="200" cy="500" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="650" cy="400" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="1050" cy="450" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="400" cy="700" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="900" cy="750" r="3" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="1250" cy="650" r="4" fill="rgba(255,255,255,0.5)"/>
+  <line x1="120" y1="80" x2="300" y2="200" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="300" y1="200" x2="500" y2="120" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="500" y1="120" x2="750" y2="60" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="750" y1="60" x2="950" y2="180" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="950" y1="180" x2="1150" y2="90" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="1150" y1="90" x2="1350" y2="150" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="200" y1="500" x2="650" y2="400" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="650" y1="400" x2="1050" y2="450" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="400" y1="700" x2="900" y2="750" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="900" y1="750" x2="1250" y2="650" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+</svg>

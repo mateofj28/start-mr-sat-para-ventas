@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <path d="M0 400C200 350 400 500 600 450C800 400 1000 300 1200 350C1400 400 1440 380 1440 380" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 440C200 390 400 540 600 490C800 440 1000 340 1200 390C1400 440 1440 420 1440 420" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 480C200 430 400 580 600 530C800 480 1000 380 1200 430C1400 480 1440 460 1440 460" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 520C200 470 400 620 600 570C800 520 1000 420 1200 470C1400 520 1440 500 1440 500" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 560C200 510 400 660 600 610C800 560 1000 460 1200 510C1400 560 1440 540 1440 540" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 600C200 550 400 700 600 650C800 600 1000 500 1200 550C1400 600 1440 580 1440 580" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 200C200 150 400 250 600 200C800 150 1000 100 1200 150C1400 200 1440 180 1440 180" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 240C200 190 400 290 600 240C800 190 1000 140 1200 190C1400 240 1440 220 1440 220" stroke="white" fill="none" stroke-width="1"/>
+  <path d="M0 280C200 230 400 330 600 280C800 230 1000 180 1200 230C1400 280 1440 260 1440 260" stroke="white" fill="none" stroke-width="1"/>
+  <circle cx="1050" cy="450" r="100" stroke="white" fill="none" stroke-width="1"/>
+  <circle cx="1050" cy="450" r="160" stroke="white" fill="none" stroke-width="1"/>
+  <circle cx="1050" cy="450" r="220" stroke="white" fill="none" stroke-width="1"/>
+  <circle cx="1050" cy="450" r="280" stroke="white" fill="none" stroke-width="1"/>
+  <circle cx="200" cy="700" r="120" stroke="white" fill="none" stroke-width="1"/>
+  <circle cx="200" cy="700" r="180" stroke="white" fill="none" stroke-width="1"/>
+</svg>

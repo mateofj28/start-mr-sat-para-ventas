@@ -53,7 +53,8 @@ function HomePage() {
             </section>
 
             {/* Somos Soingtel Section */}
-            <section className="bg-black py-20">
+            <section className="relative py-20 bg-space-1">
+
                 <div className="mx-auto max-w-7xl px-6">
                     <h2 className="text-4xl font-bold italic sm:text-5xl mb-12">Somos Soingtel</h2>
                     <div className="grid gap-8 md:grid-cols-2">
@@ -83,7 +84,8 @@ function HomePage() {
             </section>
 
             {/* Beneficios Section */}
-            <section className="bg-black py-20">
+            <section className="relative py-20 bg-space-2">
+
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="text-center mb-16">
                         <h2 className="font-heading text-4xl font-bold italic sm:text-5xl">Beneficios de elegir</h2>
@@ -192,7 +194,8 @@ function HomePage() {
             </section>
 
             {/* CTA Section */}
-            <section className="bg-black py-20">
+            <section className="relative py-20 bg-space-3">
+
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="grid gap-10 lg:grid-cols-[1fr_1.5fr_1fr] items-center">
                         {/* Left - Title */}
@@ -275,7 +278,8 @@ function HomePage() {
             </section>
 
             {/* Contact Form Section */}
-            <section className="bg-black py-20">
+            <section className="relative py-20 bg-space-4">
+
                 <div className="mx-auto max-w-7xl px-6">
                     {/* Header */}
                     <div className="text-center mb-12">

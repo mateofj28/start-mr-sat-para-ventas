@@ -20,6 +20,16 @@
   body {
     @apply bg-black text-white font-sans antialiased overflow-x-hidden;
   }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+  -webkit-text-fill-color: white !important;
+  box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+  caret-color: white;
+}
 }
 
 @layer components {

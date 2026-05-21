@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import ContactForm from '../components/ContactForm'
 
 function HomePage() {
     return (
@@ -292,64 +293,7 @@ function HomePage() {
                     </div>
 
                     {/* Form */}
-                    <div className="mx-auto max-w-2xl">
-                        <form className="flex flex-col gap-6">
-                            {/* Nombre */}
-                            <div>
-                                <label className="block text-lg font-bold text-white italic mb-2">Nombre:</label>
-                                <div className="flex items-center gap-3 rounded-lg border border-gray-400/60 bg-gray-800/60 backdrop-blur-sm px-4 py-3">
-                                    <input
-                                        type="text"
-                                        placeholder="INGRESE SU NOMBRE"
-                                        className="flex-1 bg-transparent text-sm text-white placeholder-gray-300 outline-none tracking-wide"
-                                    />
-                                </div>
-                            </div>
-
-                            {/* Email */}
-                            <div>
-                                <label className="block text-lg font-bold text-white italic mb-2">Email:</label>
-                                <div className="flex items-center gap-3 rounded-lg border border-gray-400/60 bg-gray-800/60 backdrop-blur-sm px-4 py-3">
-                                    <input
-                                        type="email"
-                                        placeholder="INGRESE SU EMAIL"
-                                        className="flex-1 bg-transparent text-sm text-white placeholder-gray-300 outline-none tracking-wide"
-                                    />
-                                </div>
-                            </div>
-
-                            {/* Teléfono */}
-                            <div>
-                                <label className="block text-lg font-bold text-white italic mb-2">Teléfono:</label>
-                                <div className="flex items-center gap-3 rounded-lg border border-gray-400/60 bg-gray-800/60 backdrop-blur-sm px-4 py-3">
-                                    <input
-                                        type="tel"
-                                        placeholder="INGRESE SU TELÉFONO"
-                                        className="flex-1 bg-transparent text-sm text-white placeholder-gray-300 outline-none tracking-wide"
-                                    />
-                                </div>
-                            </div>
-
-                            {/* Mensaje */}
-                            <div>
-                                <label className="block text-lg font-bold text-white italic mb-2">Mensaje:</label>
-                                <div className="flex items-start gap-3 rounded-lg border border-gray-400/60 bg-gray-800/60 backdrop-blur-sm px-4 py-3">
-                                    <textarea
-                                        placeholder="INGRESE SU MENSAJE"
-                                        rows={4}
-                                        className="flex-1 bg-transparent text-sm text-white placeholder-gray-300 outline-none tracking-wide resize-none"
-                                    />
-                                </div>
-                            </div>
-
-                            {/* Enviar */}
-                            <div>
-                                <button type="submit" className="btn-primary">
-                                    ENVIAR
-                                </button>
-                            </div>
-                        </form>
-                    </div>
+                    <ContactForm />
                 </div>
             </section>
         </div>

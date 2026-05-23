@@ -35,8 +35,9 @@ function Navbar() {
                 }`}>
                 <nav className="flex items-center justify-between px-8 py-5">
                     {/* Logo */}
-                    <Link to="/" className="text-white text-sm font-bold tracking-[0.15em] uppercase">
-                        STARLINK LATINOAMERICA
+                    <Link to="/" className="flex flex-col items-center leading-tight">
+                        <span className="text-white text-sm font-bold tracking-[0.3em] uppercase">·STARLINK·</span>
+                        <span className="text-white text-[10px] tracking-[0.35em] uppercase">LATINOAMÉRICA</span>
                     </Link>
 
                     {/* Hamburger icon */}
@@ -81,26 +82,17 @@ function Navbar() {
                 </div>
 
                 {/* Tabs */}
-                <div className="flex items-center gap-0 px-6 mb-6">
-                    <button
-                        onClick={() => setActiveTab('personal')}
-                        className={`text-sm font-bold uppercase tracking-wide pr-4 border-r border-gray-600 transition-colors ${activeTab === 'personal' ? 'text-white' : 'text-gray-500 hover:text-gray-300'
-                            }`}
-                    >
-                        Personal
-                    </button>
-                    <button
-                        onClick={() => setActiveTab('empresas')}
-                        className={`text-sm font-bold uppercase tracking-wide pl-4 transition-colors ${activeTab === 'empresas' ? 'text-white' : 'text-gray-500 hover:text-gray-300'
-                            }`}
-                    >
-                        Empresas
-                    </button>
-                </div>
 
                 {/* Navigation links */}
                 <div className="flex flex-col px-6 gap-5">
-                    {links.map((link) => (
+                    {[
+                        { name: 'INICIO', path: '/' },
+                        { name: 'HOGAR', path: '/hogar' },
+                        { name: 'EMPRESARIAL', path: '/empresarial' },
+                        { name: 'AGRO', path: '/agro' },
+                        { name: 'MINERO', path: '/minero' },
+                        { name: 'CONTACTO', path: '/contacto' },
+                    ].map((link) => (
                         <Link
                             key={link.name}
                             to={link.path}
@@ -115,29 +107,6 @@ function Navbar() {
                     ))}
                 </div>
 
-                {/* Divider + Country */}
-                <div className="mt-10 px-6">
-                    <div className="flex items-center gap-2 text-sm font-bold text-white uppercase tracking-wide">
-                        <span>CO</span>
-                        <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                            <circle cx="12" cy="12" r="10" />
-                            <path strokeLinecap="round" d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                        </svg>
-                    </div>
-                </div>
-
-                {/* Bottom links */}
-                <div className="mt-10 flex flex-col px-6 gap-5">
-                    <a href="#" className="text-sm font-bold uppercase tracking-wide text-gray-300 hover:text-white transition-colors">
-                        Iniciar sesión
-                    </a>
-                    <a href="#" className="text-sm font-bold uppercase tracking-wide text-gray-300 hover:text-white transition-colors">
-                        Centro de ayuda
-                    </a>
-                    <a href="#" className="text-sm font-bold uppercase tracking-wide text-gray-300 hover:text-white transition-colors">
-                        Mapa de disponibilidad
-                    </a>
-                </div>
             </div>
         </>
     )

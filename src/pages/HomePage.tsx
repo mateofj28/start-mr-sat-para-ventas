@@ -45,7 +45,7 @@ function HomePage() {
 
                         {/* Right content */}
                         <div className="max-w-sm">
-                            <p className="text-base leading-relaxed text-gray-300 sm:text-lg">
+                            <p className="text-base leading-relaxed text-white text-justify sm:text-lg">
                                 Nosotros llevamos Internet satelital de alta velocidad a hogares, empresas, el campo y la industria. Todo gracias a nuestras soluciones integrales de Internet Satelital.
                             </p>
                         </div>
@@ -53,11 +53,11 @@ function HomePage() {
                 </div>
             </section>
 
-            {/* Somos Starlink Section */}
+            {/* Starlink Colombia Section */}
             <section className="relative py-20 bg-space-1">
 
                 <div className="mx-auto max-w-7xl px-6">
-                    <h2 className="text-4xl font-bold italic sm:text-5xl mb-12">Somos Starlink</h2>
+                    <h2 className="text-4xl font-bold italic sm:text-5xl mb-12">Starlink Colombia</h2>
                     <div className="grid gap-8 md:grid-cols-2">
                         {/* Left - Person image */}
                         <div className="overflow-hidden rounded-lg">
@@ -76,7 +76,7 @@ function HomePage() {
                                     className="h-64 w-full object-cover"
                                 />
                             </div>
-                            <p className="text-base leading-relaxed text-gray-300 sm:text-lg">
+                            <p className="text-base leading-relaxed text-white text-justify sm:text-lg">
                                 Nos especializamos en brindar soluciones de conectividad satelital de última generación, siendo proveedores de diferentes marcas de Internet satelital. Nuestra misión es conectar personas y negocios, sin importar lo lejos que estén, ofreciendo servicios confiables y de alta velocidad.
                             </p>
                         </div>

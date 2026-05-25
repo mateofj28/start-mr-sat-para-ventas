@@ -209,70 +209,70 @@ function HomePage() {
 
                         {/* Center - Hogar & Agro */}
                         <div className="flex flex-col gap-6">
-                            <div>
+                            <Link to="/hogar" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=300&fit=crop"
                                         alt="Hogar"
-                                        className="w-full h-56 object-cover"
+                                        className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
                                 </div>
                                 <div className="flex items-center justify-between mt-3">
                                     <span className="text-lg font-medium text-white">Hogar</span>
-                                    <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                    <svg className="h-5 w-5 text-white transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                     </svg>
                                 </div>
-                            </div>
-                            <div>
+                            </Link>
+                            <Link to="/agro" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=500&h=300&fit=crop"
                                         alt="Agro"
-                                        className="w-full h-56 object-cover"
+                                        className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
                                 </div>
                                 <div className="flex items-center justify-between mt-3">
                                     <span className="text-lg font-medium text-white">Agro</span>
-                                    <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                    <svg className="h-5 w-5 text-white transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                     </svg>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
 
                         {/* Right - Empresarial & Minería */}
                         <div className="flex flex-col gap-6">
-                            <div>
+                            <Link to="/empresarial" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=250&fit=crop"
                                         alt="Empresarial"
-                                        className="w-full h-44 object-cover"
+                                        className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
                                 </div>
                                 <div className="flex items-center justify-between mt-3">
                                     <span className="text-lg font-medium text-white">Empresarial</span>
-                                    <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                    <svg className="h-5 w-5 text-white transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                     </svg>
                                 </div>
-                            </div>
-                            <div>
+                            </Link>
+                            <Link to="/minero" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=250&fit=crop"
                                         alt="Minería"
-                                        className="w-full h-44 object-cover"
+                                        className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
                                 </div>
                                 <div className="flex items-center justify-between mt-3">
-                                    <span className="text-lg font-medium text-white">Mineria</span>
-                                    <svg className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                    <span className="text-lg font-medium text-white">Minería</span>
+                                    <svg className="h-5 w-5 text-white transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                     </svg>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

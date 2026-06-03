@@ -15,7 +15,7 @@ function MineroPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1600&h=900&fit=crop"
+                        src="https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?w=1600&h=900&fit=crop"
                         alt="Comunicación segura en operaciones mineras"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
@@ -43,7 +43,7 @@ function MineroPage() {
                         <div className={`max-w-md transition-all duration-1000 ease-out delay-1000 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                             }`}>
                             <p className="text-base leading-relaxed text-white text-justify sm:text-lg">
-                                Las operaciones mineras requieren comunicación constante, incluso en entornos extremos. Con nuestros servicios integrados de internet satelital, las compañías mineras obtienen conectividad de alta capacidad, resiliente y segura, afianzando la coordinación, el monitoreo y la seguridad operativa en cada sitio.
+                                Las operaciones mineras demandan conectividad robusta y permanente. Con nuestras soluciones integrales de internet, el sector minero cuenta con comunicaciones seguras, de alta capacidad y diseñadas para entornos extremos, garantizando continuidad, monitoreo y eficiencia operativa en cada sitio de operación.
                             </p>
                         </div>
                     </div>

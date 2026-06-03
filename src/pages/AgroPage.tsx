@@ -43,7 +43,7 @@ function AgroPage() {
                         <div className={`max-w-md transition-all duration-1000 ease-out delay-1000 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                             }`}>
                             <p className="text-base leading-relaxed text-white text-justify sm:text-lg">
-                                El campo también merece tecnología de punta. Con nuestros servicios integrados de Internet satelital, el sector agropecuario accede a herramientas digitales para optimizar la producción, monitorear cultivos y gestionar recursos de forma inteligente, incluso en zonas rurales de difícil acceso.
+                                El campo también merece tecnología de punta. Con nuestras soluciones integrales de internet, el sector agropecuario accede a herramientas digitales que optimizan la producción, facilitan el monitoreo de cultivos y mejoran la gestión inteligente de recursos, incluso en zonas rurales y de difícil acceso.
                             </p>
                         </div>
                     </div>

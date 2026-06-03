@@ -15,8 +15,8 @@ function HogarPage() {
                 {/* Background Image with zoom animation */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&h=900&fit=crop&crop=center"
-                        alt="Familia usando internet en el hogar"
+                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&h=900&fit=crop"
+                        alt="Casa con internet satelital"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
                     />
@@ -43,7 +43,7 @@ function HogarPage() {
                         <div className={`max-w-md transition-all duration-1000 ease-out delay-[1200ms] ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                             }`}>
                             <p className="text-base leading-relaxed text-white text-justify sm:text-lg">
-                                Con nuestra red de sistemas integrales de internet satelital, tu hogar disfruta de una conexión estable, rápida y segura. Nuestra tecnología satelital garantiza una experiencia de navegación fluida, ideal para streaming, videollamadas, teletrabajo y entretenimiento familiar, incluso en zonas rurales.
+                                Con nuestra red de sistemas integrales de internet satelital, tu hogar disfruta de una conexión estable, rápida y segura. Nuestra tecnología garantiza una experiencia de navegación fluida, ideal para streaming, videollamadas, teletrabajo y entretenimiento familiar, incluso en zonas rurales.
                             </p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1509281373149-e957c6296406?w=500&h=200&fit=crop"
+                                        src="https://images.unsplash.com/photo-1582139329536-e7284fece509?w=500&h=200&fit=crop"
                                         alt="CCTV"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -85,7 +85,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=500&h=200&fit=crop"
+                                        src="https://images.unsplash.com/photo-1558002038-1055907df827?w=500&h=200&fit=crop"
                                         alt="Conectividad IoT Satelital"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -107,7 +107,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=200&fit=crop"
+                                        src="https://images.unsplash.com/photo-1621274403997-37aace184f49?w=500&h=200&fit=crop"
                                         alt="Servicio técnico"
                                         className="w-full h-[200px] object-cover"
                                     />

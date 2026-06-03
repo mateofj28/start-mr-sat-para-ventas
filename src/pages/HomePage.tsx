@@ -46,7 +46,7 @@ function HomePage() {
                         {/* Right content */}
                         <div className="max-w-sm">
                             <p className="text-base leading-relaxed text-white text-justify sm:text-lg">
-                                Nosotros llevamos Internet satelital de alta velocidad a hogares, empresas, el campo y la industria. Todo gracias a nuestras soluciones integrales de Internet Satelital.
+                                Conectamos hogares, empresas, operaciones rurales e industria con internet satelital de alta velocidad, mediante soluciones integrales que llevan conectividad donde otros no llegan, respaldadas por acompañamiento técnico y administrativo especializado.
                             </p>
                         </div>
                     </div>

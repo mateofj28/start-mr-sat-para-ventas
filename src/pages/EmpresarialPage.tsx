@@ -39,11 +39,11 @@ function EmpresarialPage() {
                         <div className="max-w-md lg:order-1">
                             <p className={`text-lg font-semibold italic text-cyan-400 transition-all duration-1000 ease-out delay-700 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                                 }`}>
-                                Cotiza tu plan empresarial
+                                Cotiza tu Plan Empresarial
                             </p>
                             <p className={`mt-8 text-base leading-relaxed text-white text-justify sm:text-lg transition-all duration-1000 ease-out delay-1000 ${loaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
                                 }`}>
-                                La productividad de tu empresa no puede depender de una conexión inestable. Con nuestros servicios Integrados de Internet satelital, obtienes una red robusta, de baja latencia y con respaldo constante, diseñada para operaciones críticas, oficinas remotas y compañías que requieren continuidad de servicio.
+                                La conectividad de tu empresa no puede detenerse. Con nuestras soluciones integrales de internet de alta velocidad, accede a una red robusta, de baja latencia y con disponibilidad permanente, ideal para operaciones críticas, sedes remotas y organizaciones que exigen continuidad y máximo desempeño.
                             </p>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ function EmpresarialPage() {
                             },
                             {
                                 title: 'Soporte Remoto Satelital',
-                                description: 'Implementación de sistemas de videovigilancia satelital para mayor seguridad doméstica.',
+                                description: 'Asistencia técnica remota para diagnóstico, monitoreo y resolución de incidentes en tiempo real.',
                                 image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=200&fit=crop',
                             },
                             {

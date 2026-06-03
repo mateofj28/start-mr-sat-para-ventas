@@ -35,12 +35,12 @@ function HomePage() {
                             <p className="mt-4 text-xl font-bold italic text-gray-200 sm:text-2xl">
                                 Donde quiera que estés
                             </p>
-                            <Link to="/features" className="mt-8 inline-flex items-center gap-2 text-base font-semibold italic text-cyan-400 hover:text-cyan-300 transition-colors">
+                            <a href="#beneficios" className="mt-8 inline-flex items-center gap-2 text-base font-semibold italic text-cyan-400 hover:text-cyan-300 transition-colors">
                                 Descubre nuestros servicios
                                 <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                 </svg>
-                            </Link>
+                            </a>
                         </div>
 
                         {/* Right content */}
@@ -85,7 +85,7 @@ function HomePage() {
             </section>
 
             {/* Beneficios Section */}
-            <section className="relative py-20 bg-space-2">
+            <section id="beneficios" className="relative py-20 bg-space-2">
 
                 <div className="mx-auto max-w-7xl px-6">
                     <div className="text-center mb-16">

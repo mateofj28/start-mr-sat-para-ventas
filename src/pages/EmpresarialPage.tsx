@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function EmpresarialPage() {
     const [loaded, setLoaded] = useState(false)
@@ -109,7 +110,7 @@ function EmpresarialPage() {
                             },
                             {
                                 title: 'Servicio técnico',
-                                description: 'Asistencia técnica certificada para instalación, mantenimiento y configuración.',
+                                description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
                                 image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=250&fit=crop',
                             },
                             {
@@ -143,12 +144,12 @@ function EmpresarialPage() {
 
                     {/* Contáctanos */}
                     <div className="flex items-center justify-center mt-12">
-                        <a href="/contacto" className="inline-flex items-center gap-3 text-xl font-bold text-white hover:text-cyan-400 transition-colors">
+                        <Link to="/contacto" className="inline-flex items-center gap-3 text-xl font-bold text-white hover:text-cyan-400 transition-colors">
                             Contáctanos
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>

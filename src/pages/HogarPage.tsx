@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function HogarPage() {
     const [loaded, setLoaded] = useState(false)
@@ -117,19 +118,19 @@ function HogarPage() {
                                 {/* Back */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-xl bg-white flex flex-col items-center justify-center p-6 text-center">
                                     <h3 className="text-2xl font-bold text-gray-900">Servicio técnico</h3>
-                                    <p className="mt-4 text-sm text-gray-600">Asistencia técnica certificada para instalación, mantenimiento y configuración.</p>
+                                    <p className="mt-4 text-sm text-gray-600">Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.</p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Contáctanos */}
                         <div className="flex items-center justify-center">
-                            <a href="/contacto" className="inline-flex items-center gap-3 text-xl font-bold text-white hover:text-cyan-400 transition-colors">
+                            <Link to="/contacto" className="inline-flex items-center gap-3 text-xl font-bold text-white hover:text-cyan-400 transition-colors">
                                 Contáctanos
                                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                                 </svg>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function MineroPage() {
     const [loaded, setLoaded] = useState(false)
@@ -14,8 +15,8 @@ function MineroPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=1600&h=900&fit=crop"
-                        alt="Operación minera"
+                        src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1600&h=900&fit=crop"
+                        alt="Comunicación segura en operaciones mineras"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
                     />
@@ -109,7 +110,7 @@ function MineroPage() {
                             },
                             {
                                 title: 'Servicio técnico',
-                                description: 'Despliegue técnico para instalación y mantenimiento en áreas mineras.',
+                                description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
                                 image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=200&fit=crop',
                             },
                             {
@@ -143,12 +144,12 @@ function MineroPage() {
 
                     {/* Contáctanos */}
                     <div className="flex items-center justify-center mt-12">
-                        <a href="/contacto" className="inline-flex items-center gap-3 text-xl font-bold text-white hover:text-cyan-400 transition-colors">
+                        <Link to="/contacto" className="inline-flex items-center gap-3 text-xl font-bold text-white hover:text-cyan-400 transition-colors">
                             Contáctanos
                             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                             </svg>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>

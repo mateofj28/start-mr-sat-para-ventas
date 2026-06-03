@@ -4,7 +4,6 @@ import { Link, useLocation } from 'react-router-dom'
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false)
     const [scrolled, setScrolled] = useState(false)
-    const [activeTab, setActiveTab] = useState<'personal' | 'empresas'>('personal')
     const location = useLocation()
 
     useEffect(() => {
@@ -14,18 +13,6 @@ function Navbar() {
         window.addEventListener('scroll', handleScroll)
         return () => window.removeEventListener('scroll', handleScroll)
     }, [])
-
-    const personalLinks = [
-        { name: 'RESIDENCIAL', path: '/' },
-        { name: 'ITINERANTE', path: '/features' },
-    ]
-
-    const empresasLinks = [
-        { name: 'EMPRESARIAL', path: '/features' },
-        { name: 'MARÍTIMO', path: '/about' },
-    ]
-
-    const links = activeTab === 'personal' ? personalLinks : empresasLinks
 
     return (
         <>

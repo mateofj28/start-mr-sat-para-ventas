@@ -212,7 +212,7 @@ function HomePage() {
                             <Link to="/hogar" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=300&fit=crop"
+                                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&h=300&fit=crop"
                                         alt="Hogar"
                                         className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -227,7 +227,7 @@ function HomePage() {
                             <Link to="/agro" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=500&h=300&fit=crop"
+                                        src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=500&h=300&fit=crop"
                                         alt="Agro"
                                         className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -261,7 +261,7 @@ function HomePage() {
                             <Link to="/minero" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=250&fit=crop"
+                                        src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&h=250&fit=crop"
                                         alt="Minería"
                                         className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />

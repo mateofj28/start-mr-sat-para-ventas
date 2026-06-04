@@ -63,7 +63,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1582139329536-e7284fece509?w=500&h=200&fit=crop"
+                                        src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&h=200&fit=crop"
                                         alt="CCTV"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -85,7 +85,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1558002038-1055907df827?w=500&h=200&fit=crop"
+                                        src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&h=200&fit=crop"
                                         alt="Conectividad IoT Satelital"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -107,7 +107,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1621274403997-37aace184f49?w=500&h=200&fit=crop"
+                                        src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=200&fit=crop"
                                         alt="Servicio técnico"
                                         className="w-full h-[200px] object-cover"
                                     />

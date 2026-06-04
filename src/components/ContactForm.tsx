@@ -128,6 +128,7 @@ function ContactForm() {
                 <div>
                     <label htmlFor="telefono" className="block text-lg font-bold text-white italic mb-2">Teléfono:</label>
                     <div className={`flex items-center gap-3 rounded-lg border ${errors.telefono ? 'border-red-500' : 'border-gray-400/60'} bg-gray-800/60 backdrop-blur-sm px-4 py-3`}>
+                        <span className="text-sm text-gray-300 font-medium">+57</span>
                         <input
                             id="telefono"
                             name="telefono"

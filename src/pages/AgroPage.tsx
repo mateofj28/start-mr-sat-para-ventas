@@ -61,12 +61,12 @@ function AgroPage() {
                             {
                                 title: 'CCTV',
                                 description: 'Sistemas de videovigilancia rural conectados vía satélite.',
-                                image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&h=200&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=500&h=200&fit=crop',
                             },
                             {
                                 title: 'Conectividad IoT Satelital',
                                 description: 'Soluciones de agricultura inteligente basadas en sensores conectados.',
-                                image: 'https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=500&h=200&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&h=200&fit=crop',
                             },
                             {
                                 title: 'Centro Solar de Conexión',
@@ -106,17 +106,17 @@ function AgroPage() {
                             {
                                 title: 'Operaciones Técnicas en Campo',
                                 description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
-                                image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=500&h=200&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=200&fit=crop',
                             },
                             {
                                 title: 'Kit Satelital de Emergencia',
                                 description: 'Conectividad portátil para contingencias agrícolas.',
-                                image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=200&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1586920740099-f3ceb65bc51e?w=500&h=200&fit=crop',
                             },
                             {
                                 title: 'Alquiler de Internet Satelital',
                                 description: 'Internet temporal para proyectos o eventos agroindustriales.',
-                                image: 'https://images.unsplash.com/photo-1574169208507-84376144848b?w=500&h=200&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&h=200&fit=crop',
                             },
                         ].map((service, index) => (
                             <div key={index} className="group [perspective:1000px] h-[260px] w-full">

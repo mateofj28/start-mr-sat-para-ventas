@@ -66,7 +66,7 @@ function EmpresarialPage() {
                             {
                                 title: 'Conectividad IoT Satelital',
                                 description: 'Interconexión de equipos, sensores y sistemas mediante red satelital segura.',
-                                image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=200&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&h=200&fit=crop',
                             },
                             {
                                 title: 'Centro Solar de Conexión',
@@ -106,17 +106,17 @@ function EmpresarialPage() {
                             {
                                 title: 'Kit Satelital de Emergencia',
                                 description: 'Soluciones portátiles de conectividad para situaciones críticas o cortes prolongados.',
-                                image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=250&fit=crop&crop=bottom',
+                                image: 'https://images.unsplash.com/photo-1586920740099-f3ceb65bc51e?w=500&h=250&fit=crop',
                             },
                             {
                                 title: 'Servicio técnico',
                                 description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
-                                image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&h=250&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=250&fit=crop',
                             },
                             {
                                 title: 'Alquiler de Internet Satelital',
                                 description: 'Planes flexibles de conectividad temporal para eventos o proyectos.',
-                                image: 'https://images.unsplash.com/photo-1574169208507-84376144848b?w=500&h=200&fit=crop',
+                                image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&h=200&fit=crop',
                             },
                         ].map((service, index) => (
                             <div key={index} className="group [perspective:1000px] h-[260px] w-full">

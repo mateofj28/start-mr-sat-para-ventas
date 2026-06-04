@@ -3,6 +3,7 @@ import { useState } from 'react'
 interface FormData {
     nombre: string
     email: string
+    prefijo: string
     telefono: string
     mensaje: string
 }
@@ -14,10 +15,33 @@ interface FormErrors {
     mensaje?: string
 }
 
+const prefijos = [
+    { code: '+57', country: 'Colombia' },
+    { code: '+1', country: 'Estados Unidos' },
+    { code: '+52', country: 'México' },
+    { code: '+51', country: 'Perú' },
+    { code: '+56', country: 'Chile' },
+    { code: '+54', country: 'Argentina' },
+    { code: '+593', country: 'Ecuador' },
+    { code: '+58', country: 'Venezuela' },
+    { code: '+507', country: 'Panamá' },
+    { code: '+506', country: 'Costa Rica' },
+    { code: '+502', country: 'Guatemala' },
+    { code: '+503', country: 'El Salvador' },
+    { code: '+504', country: 'Honduras' },
+    { code: '+505', country: 'Nicaragua' },
+    { code: '+591', country: 'Bolivia' },
+    { code: '+595', country: 'Paraguay' },
+    { code: '+598', country: 'Uruguay' },
+    { code: '+55', country: 'Brasil' },
+    { code: '+34', country: 'España' },
+]
+
 function ContactForm() {
     const [formData, setFormData] = useState<FormData>({
         nombre: '',
         email: '',
+        prefijo: '+57',
         telefono: '',
         mensaje: '',
     })
@@ -55,10 +79,9 @@ function ContactForm() {
         return Object.keys(newErrors).length === 0
     }
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
         const { name, value } = e.target
         setFormData(prev => ({ ...prev, [name]: value }))
-        // Limpiar error del campo al escribir
         if (errors[name as keyof FormErrors]) {
             setErrors(prev => ({ ...prev, [name]: undefined }))
         }
@@ -67,10 +90,16 @@ function ContactForm() {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault()
         if (validate()) {
-            // Aquí iría la lógica de envío (API, email, etc.)
-            console.log('Formulario enviado:', formData)
+            const subject = encodeURIComponent(`Contacto Web - ${formData.nombre}`)
+            const body = encodeURIComponent(
+                `Nombre: ${formData.nombre}\n` +
+                `Email: ${formData.email}\n` +
+                `Teléfono: ${formData.prefijo} ${formData.telefono}\n\n` +
+                `Mensaje:\n${formData.mensaje}`
+            )
+            window.open(`mailto:Info@starlinkcolombia.com.co?subject=${subject}&body=${body}`, '_self')
             setSubmitted(true)
-            setFormData({ nombre: '', email: '', telefono: '', mensaje: '' })
+            setFormData({ nombre: '', email: '', prefijo: '+57', telefono: '', mensaje: '' })
             setTimeout(() => setSubmitted(false), 5000)
         }
     }
@@ -127,8 +156,20 @@ function ContactForm() {
                 {/* Teléfono */}
                 <div>
                     <label htmlFor="telefono" className="block text-lg font-bold text-white italic mb-2">Teléfono:</label>
-                    <div className={`flex items-center gap-3 rounded-lg border ${errors.telefono ? 'border-red-500' : 'border-gray-400/60'} bg-gray-800/60 backdrop-blur-sm px-4 py-3`}>
-                        <span className="text-sm text-gray-300 font-medium">+57</span>
+                    <div className={`flex items-center gap-1 rounded-lg border ${errors.telefono ? 'border-red-500' : 'border-gray-400/60'} bg-gray-800/60 backdrop-blur-sm px-4 py-3`}>
+                        <select
+                            name="prefijo"
+                            value={formData.prefijo}
+                            onChange={handleChange}
+                            className="bg-transparent text-sm text-white outline-none cursor-pointer appearance-none pr-1"
+                        >
+                            {prefijos.map((p) => (
+                                <option key={p.code} value={p.code} className="bg-gray-900 text-white">
+                                    {p.code} {p.country}
+                                </option>
+                            ))}
+                        </select>
+                        <span className="text-gray-500">|</span>
                         <input
                             id="telefono"
                             name="telefono"
@@ -141,7 +182,7 @@ function ContactForm() {
                             }}
                             placeholder="INGRESE SU TELÉFONO"
                             maxLength={10}
-                            className="flex-1 bg-transparent text-sm text-white placeholder-gray-300 outline-none tracking-wide"
+                            className="flex-1 bg-transparent text-sm text-white placeholder-gray-300 outline-none tracking-wide ml-2"
                         />
                     </div>
                     {errors.telefono && <p className="mt-1 text-xs text-red-400">{errors.telefono}</p>}

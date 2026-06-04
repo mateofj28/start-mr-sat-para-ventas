@@ -67,20 +67,16 @@ function Footer() {
                     <div>
                         <h3 className="text-sm font-bold uppercase tracking-wider text-white mb-4">Contacto</h3>
                         <ul className="space-y-3">
-                            <li className="flex items-start gap-2">
-                                <svg className="h-5 w-5 text-gray-400 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                                </svg>
-                                <a href="mailto:contacto@starlinklatino.com" className="text-sm text-gray-400 hover:text-white transition-colors">
-                                    contacto@starlinklatino.com
+                            <li>
+                                <h4 className="text-sm font-bold text-white">Whatsapp</h4>
+                                <a href="https://wa.me/573107686304?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors">
+                                    +57 310 768 63 04
                                 </a>
                             </li>
-                            <li className="flex items-start gap-2">
-                                <svg className="h-5 w-5 text-gray-400 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                                </svg>
-                                <a href="https://wa.me/573107686304?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n." target="_blank" rel="noopener noreferrer" className="text-sm text-gray-400 hover:text-white transition-colors">
-                                    +57 310 768 6304
+                            <li>
+                                <h4 className="text-sm font-bold text-white">Correo electrónico</h4>
+                                <a href="mailto:Info@starlinkcolombia.com.co" className="text-sm text-gray-400 hover:text-white transition-colors">
+                                    Info@starlinkcolombia.com.co
                                 </a>
                             </li>
                             <li className="flex items-start gap-2">

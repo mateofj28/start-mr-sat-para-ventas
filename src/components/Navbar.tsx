@@ -40,10 +40,33 @@ function Navbar() {
                         <span className="text-white text-[10px] tracking-[0.35em] uppercase">LATINOAMÉRICA</span>
                     </Link>
 
-                    {/* Hamburger icon */}
+                    {/* Desktop links */}
+                    <div className="hidden lg:flex items-center gap-8">
+                        {[
+                            { name: 'INICIO', path: '/' },
+                            { name: 'HOGAR', path: '/hogar' },
+                            { name: 'EMPRESARIAL', path: '/empresarial' },
+                            { name: 'AGRO', path: '/agro' },
+                            { name: 'MINERO', path: '/minero' },
+                            { name: 'CONTACTO', path: '/contacto' },
+                        ].map((link) => (
+                            <Link
+                                key={link.name}
+                                to={link.path}
+                                className={`text-xs font-bold uppercase tracking-wide transition-colors ${location.pathname === link.path
+                                    ? 'text-white'
+                                    : 'text-gray-300 hover:text-white'
+                                    }`}
+                            >
+                                {link.name}
+                            </Link>
+                        ))}
+                    </div>
+
+                    {/* Hamburger icon - mobile only */}
                     <button
                         onClick={() => setIsOpen(true)}
-                        className="flex h-10 w-10 items-center justify-center text-white hover:opacity-70 transition-opacity"
+                        className="flex lg:hidden h-10 w-10 items-center justify-center text-white hover:opacity-70 transition-opacity"
                         aria-label="Abrir menú"
                     >
                         <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>

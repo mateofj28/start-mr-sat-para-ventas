@@ -15,7 +15,7 @@ function EmpresarialPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="https://images.unsplash.com/photo-1497215842964-222b430dc094?w=1600&h=900&fit=crop"
+                        src="/images/empresarial-hero.webp"
                         alt="Oficina empresarial"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
@@ -61,62 +61,62 @@ function EmpresarialPage() {
                             {
                                 title: 'CCTV',
                                 description: 'Soluciones de videovigilancia empresarial con transmisión en tiempo real.',
-                                image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&h=200&fit=crop',
+                                image: '/images/mineria-cctv.webp',
                             },
                             {
                                 title: 'Conectividad IoT Satelital',
                                 description: 'Interconexión de equipos, sensores y sistemas mediante red satelital segura.',
-                                image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&h=200&fit=crop',
+                                image: '/images/conectividad-iot.webp',
                             },
                             {
                                 title: 'Centro Solar de Conexión',
                                 description: 'Sistemas autónomos de energía solar para mantener conectividad continua.',
-                                image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=500&h=200&fit=crop',
+                                image: '/images/centro-solar.webp',
                             },
                             {
                                 title: 'Red de Energía y Conectividad',
                                 description: 'Diseño e instalación de redes híbridas de energía y datos.',
-                                image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=200&fit=crop',
+                                image: '/images/red-energia.webp',
                             },
                             {
                                 title: 'Red Segura Satelital',
                                 description: 'Protocolos avanzados de ciberseguridad sobre enlaces satelitales.',
-                                image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=500&h=200&fit=crop',
+                                image: '/images/red-segura.webp',
                             },
                             {
                                 title: 'Certificación de Enlaces Satelitales',
                                 description: 'Validación técnica y certificación de calidad de conexión.',
-                                image: 'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=500&h=200&fit=crop',
+                                image: '/images/certificacion-satelital.webp',
                             },
                             {
                                 title: 'Academia Satelital Soingtel',
                                 description: 'Capacitación técnica para equipos internos en manejo y mantenimiento de tecnología satelital.',
-                                image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=500&h=200&fit=crop',
+                                image: '/images/academia-satelital.webp',
                             },
                             {
                                 title: 'Panel de Control Soingtel',
                                 description: 'Plataforma de monitoreo y gestión de red satelital empresarial.',
-                                image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=200&fit=crop',
+                                image: '/images/panel-control.webp',
                             },
                             {
                                 title: 'Soporte Remoto Satelital',
                                 description: 'Asistencia técnica remota para diagnóstico, monitoreo y resolución de incidentes en tiempo real.',
-                                image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=200&fit=crop',
+                                image: '/images/soporte-remoto.webp',
                             },
                             {
                                 title: 'Kit Satelital de Emergencia',
                                 description: 'Soluciones portátiles de conectividad para situaciones críticas o cortes prolongados.',
-                                image: 'https://images.unsplash.com/photo-1586920740099-f3ceb65bc51e?w=500&h=250&fit=crop',
+                                image: '/images/kit-satelital.webp',
                             },
                             {
                                 title: 'Servicio técnico',
                                 description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
-                                image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=250&fit=crop',
+                                image: '/images/servicio-tecnico.webp',
                             },
                             {
                                 title: 'Alquiler de Internet Satelital',
                                 description: 'Planes flexibles de conectividad temporal para eventos o proyectos.',
-                                image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500&h=200&fit=crop',
+                                image: '/images/alquiler-internet.webp',
                             },
                         ].map((service, index) => (
                             <div key={index} className="group [perspective:1000px] h-[260px] w-full">

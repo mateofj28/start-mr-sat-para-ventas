@@ -62,7 +62,7 @@ function HomePage() {
                         {/* Left - Person image */}
                         <div className="overflow-hidden rounded-lg">
                             <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop&crop=faces"
+                                src="/images/persona-tecnologia.webp"
                                 alt="Persona usando tecnología"
                                 className="h-full w-full object-cover"
                             />
@@ -71,7 +71,7 @@ function HomePage() {
                         <div className="flex flex-col gap-6">
                             <div className="overflow-hidden rounded-lg">
                                 <img
-                                    src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&h=300&fit=crop"
+                                    src="/images/satelite-espacio.webp"
                                     alt="Satélite en el espacio"
                                     className="h-64 w-full object-cover"
                                 />
@@ -212,7 +212,7 @@ function HomePage() {
                             <Link to="/hogar" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&h=300&fit=crop"
+                                        src="/images/hogar-hero.webp"
                                         alt="Hogar"
                                         className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -227,7 +227,7 @@ function HomePage() {
                             <Link to="/agro" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=500&h=300&fit=crop"
+                                        src="/images/agro.webp"
                                         alt="Agro"
                                         className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -246,7 +246,7 @@ function HomePage() {
                             <Link to="/empresarial" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=400&h=250&fit=crop"
+                                        src="/images/empresarial.webp"
                                         alt="Empresarial"
                                         className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -261,7 +261,7 @@ function HomePage() {
                             <Link to="/minero" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.pexels.com/photos/2101137/pexels-photo-2101137.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop"
+                                        src="/images/mineria.webp"
                                         alt="Minería"
                                         className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />

@@ -15,7 +15,7 @@ function HogarPage() {
                 {/* Background Image with zoom animation */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&h=900&fit=crop"
+                        src="/images/hogar-hero.webp"
                         alt="Casa con internet satelital"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
@@ -63,7 +63,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=500&h=200&fit=crop"
+                                        src="/images/mineria-cctv.webp"
                                         alt="CCTV"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -85,7 +85,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=500&h=200&fit=crop"
+                                        src="/images/conectividad-iot.webp"
                                         alt="Conectividad IoT Satelital"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -107,7 +107,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500&h=200&fit=crop"
+                                        src="/images/servicio-tecnico.webp"
                                         alt="Servicio técnico"
                                         className="w-full h-[200px] object-cover"
                                     />

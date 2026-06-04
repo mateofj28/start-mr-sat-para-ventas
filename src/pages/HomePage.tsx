@@ -57,7 +57,7 @@ function HomePage() {
             <section className="relative py-20 bg-space-1">
 
                 <div className="mx-auto max-w-7xl px-6">
-                    <h2 className="text-4xl font-bold italic sm:text-5xl mb-12">Starlink Colombia</h2>
+                    <h2 className="text-4xl font-bold italic sm:text-5xl mb-12">Servicios Satelitales</h2>
                     <div className="grid gap-8 md:grid-cols-2">
                         {/* Left - Person image */}
                         <div className="overflow-hidden rounded-lg">

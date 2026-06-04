@@ -15,7 +15,7 @@ function EmpresarialPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="/images/empresarial-hero.webp"
+                        src="/images/hero-empresarial.webp"
                         alt="Oficina empresarial"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
@@ -61,62 +61,62 @@ function EmpresarialPage() {
                             {
                                 title: 'CCTV',
                                 description: 'Soluciones de videovigilancia empresarial con transmisión en tiempo real.',
-                                image: '/images/mineria-cctv.webp',
+                                image: '/images/emp-cctv.webp',
                             },
                             {
                                 title: 'Conectividad IoT Satelital',
                                 description: 'Interconexión de equipos, sensores y sistemas mediante red satelital segura.',
-                                image: '/images/conectividad-iot.webp',
+                                image: '/images/emp-iot.webp',
                             },
                             {
                                 title: 'Centro Solar de Conexión',
                                 description: 'Sistemas autónomos de energía solar para mantener conectividad continua.',
-                                image: '/images/centro-solar.webp',
+                                image: '/images/emp-solar.webp',
                             },
                             {
                                 title: 'Red de Energía y Conectividad',
                                 description: 'Diseño e instalación de redes híbridas de energía y datos.',
-                                image: '/images/red-energia.webp',
+                                image: '/images/emp-red-energia.webp',
                             },
                             {
                                 title: 'Red Segura Satelital',
                                 description: 'Protocolos avanzados de ciberseguridad sobre enlaces satelitales.',
-                                image: '/images/red-segura.webp',
+                                image: '/images/emp-red-segura.webp',
                             },
                             {
                                 title: 'Certificación de Enlaces Satelitales',
                                 description: 'Validación técnica y certificación de calidad de conexión.',
-                                image: '/images/certificacion-satelital.webp',
+                                image: '/images/emp-certificacion.webp',
                             },
                             {
                                 title: 'Academia Satelital Soingtel',
                                 description: 'Capacitación técnica para equipos internos en manejo y mantenimiento de tecnología satelital.',
-                                image: '/images/academia-satelital.webp',
+                                image: '/images/emp-academia.webp',
                             },
                             {
                                 title: 'Panel de Control Soingtel',
                                 description: 'Plataforma de monitoreo y gestión de red satelital empresarial.',
-                                image: '/images/panel-control.webp',
+                                image: '/images/emp-panel.webp',
                             },
                             {
                                 title: 'Soporte Remoto Satelital',
                                 description: 'Asistencia técnica remota para diagnóstico, monitoreo y resolución de incidentes en tiempo real.',
-                                image: '/images/soporte-remoto.webp',
+                                image: '/images/emp-soporte.webp',
                             },
                             {
                                 title: 'Kit Satelital de Emergencia',
                                 description: 'Soluciones portátiles de conectividad para situaciones críticas o cortes prolongados.',
-                                image: '/images/kit-satelital.webp',
+                                image: '/images/emp-kit.webp',
                             },
                             {
                                 title: 'Servicio técnico',
                                 description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
-                                image: '/images/servicio-tecnico.webp',
+                                image: '/images/emp-tecnico.webp',
                             },
                             {
                                 title: 'Alquiler de Internet Satelital',
                                 description: 'Planes flexibles de conectividad temporal para eventos o proyectos.',
-                                image: '/images/alquiler-internet.webp',
+                                image: '/images/emp-alquiler.webp',
                             },
                         ].map((service, index) => (
                             <div key={index} className="group [perspective:1000px] h-[260px] w-full">

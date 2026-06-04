@@ -62,7 +62,7 @@ function HomePage() {
                         {/* Left - Person image */}
                         <div className="overflow-hidden rounded-lg">
                             <img
-                                src="/images/persona-tecnologia.webp"
+                                src="/images/home-persona.webp"
                                 alt="Persona usando tecnología"
                                 className="h-full w-full object-cover"
                             />
@@ -71,7 +71,7 @@ function HomePage() {
                         <div className="flex flex-col gap-6">
                             <div className="overflow-hidden rounded-lg">
                                 <img
-                                    src="/images/satelite-espacio.webp"
+                                    src="/images/home-satelite.webp"
                                     alt="Satélite en el espacio"
                                     className="h-64 w-full object-cover"
                                 />
@@ -212,7 +212,7 @@ function HomePage() {
                             <Link to="/hogar" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="/images/hogar-hero.webp"
+                                        src="/images/sector-hogar.webp"
                                         alt="Hogar"
                                         className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -227,7 +227,7 @@ function HomePage() {
                             <Link to="/agro" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="/images/agro.webp"
+                                        src="/images/sector-agro.webp"
                                         alt="Agro"
                                         className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -246,7 +246,7 @@ function HomePage() {
                             <Link to="/empresarial" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="/images/empresarial.webp"
+                                        src="/images/sector-empresarial.webp"
                                         alt="Empresarial"
                                         className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />
@@ -261,7 +261,7 @@ function HomePage() {
                             <Link to="/minero" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="/images/mineria.webp"
+                                        src="/images/sector-mineria.webp"
                                         alt="Minería"
                                         className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />

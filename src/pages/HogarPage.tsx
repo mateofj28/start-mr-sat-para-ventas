@@ -15,7 +15,7 @@ function HogarPage() {
                 {/* Background Image with zoom animation */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="/images/hogar-hero.webp"
+                        src="/images/hero-hogar.webp"
                         alt="Casa con internet satelital"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
@@ -63,7 +63,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="/images/mineria-cctv.webp"
+                                        src="/images/hogar-cctv.webp"
                                         alt="CCTV"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -85,7 +85,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="/images/conectividad-iot.webp"
+                                        src="/images/hogar-iot.webp"
                                         alt="Conectividad IoT Satelital"
                                         className="w-full h-[200px] object-cover"
                                     />
@@ -107,7 +107,7 @@ function HogarPage() {
                                 {/* Front */}
                                 <div className="absolute inset-0 [backface-visibility:hidden] rounded-xl overflow-hidden bg-white">
                                     <img
-                                        src="/images/servicio-tecnico.webp"
+                                        src="/images/hogar-tecnico.webp"
                                         alt="Servicio técnico"
                                         className="w-full h-[200px] object-cover"
                                     />

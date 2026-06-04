@@ -15,7 +15,7 @@ function MineroPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="/images/mineria-hero.webp"
+                        src="/images/hero-minero.webp"
                         alt="Operación minera con maquinaria pesada"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
@@ -61,62 +61,62 @@ function MineroPage() {
                             {
                                 title: 'CCTV',
                                 description: 'Sistemas de videovigilancia rural conectados vía satélite.',
-                                image: '/images/mineria-cctv.webp',
+                                image: '/images/min-cctv.webp',
                             },
                             {
                                 title: 'Conectividad IoT Satelital',
                                 description: 'Soluciones de agricultura inteligente basadas en sensores conectados.',
-                                image: '/images/mineria-iot.webp',
+                                image: '/images/min-iot.webp',
                             },
                             {
                                 title: 'Centro Solar de Conexión',
                                 description: 'Energía solar autosuficiente para puntos de conectividad minera.',
-                                image: '/images/centro-solar.webp',
+                                image: '/images/min-solar.webp',
                             },
                             {
                                 title: 'Red de Energía y Conectividad',
                                 description: 'Integración de redes energéticas y de datos para operaciones mineras tecnificadas.',
-                                image: '/images/red-energia.webp',
+                                image: '/images/min-red-energia.webp',
                             },
                             {
                                 title: 'Red Segura Satelital',
                                 description: 'Transmisión de datos mineros segura y cifrada.',
-                                image: '/images/red-segura.webp',
+                                image: '/images/min-red-segura.webp',
                             },
                             {
                                 title: 'Certificación de Enlaces Satelitales',
                                 description: 'Verificación técnica de enlaces para proyectos mineros.',
-                                image: '/images/certificacion-satelital.webp',
+                                image: '/images/min-certificacion.webp',
                             },
                             {
                                 title: 'Academia Satelital Soingtel',
                                 description: 'Capacitación del servicio satelital.',
-                                image: '/images/academia-satelital.webp',
+                                image: '/images/min-academia.webp',
                             },
                             {
                                 title: 'Panel de Control Soingtel',
                                 description: 'Gestión centralizada de equipos y consumo satelital.',
-                                image: '/images/panel-control.webp',
+                                image: '/images/min-panel.webp',
                             },
                             {
                                 title: 'Soporte Remoto Satelital',
                                 description: 'Asistencia técnica remota desde cualquier punto del país.',
-                                image: '/images/soporte-remoto.webp',
+                                image: '/images/min-soporte.webp',
                             },
                             {
                                 title: 'Kit Satelital de Emergencia',
                                 description: 'Conectividad portátil para contingencias mineras.',
-                                image: '/images/kit-satelital.webp',
+                                image: '/images/min-kit.webp',
                             },
                             {
                                 title: 'Servicio técnico',
                                 description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
-                                image: '/images/servicio-tecnico.webp',
+                                image: '/images/min-tecnico.webp',
                             },
                             {
                                 title: 'Alquiler de Internet Satelital',
                                 description: 'Internet temporal para proyectos o eventos mineros.',
-                                image: '/images/alquiler-internet.webp',
+                                image: '/images/min-alquiler.webp',
                             },
                         ].map((service, index) => (
                             <div key={index} className="group [perspective:1000px] h-[260px] w-full">

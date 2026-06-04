@@ -15,7 +15,7 @@ function AgroPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="/images/agro-hero.webp"
+                        src="/images/hero-agro.webp"
                         alt="Campo agrícola con tecnología"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
@@ -66,57 +66,57 @@ function AgroPage() {
                             {
                                 title: 'Conectividad IoT Satelital',
                                 description: 'Soluciones de agricultura inteligente basadas en sensores conectados.',
-                                image: '/images/conectividad-iot.webp',
+                                image: '/images/agro-iot.webp',
                             },
                             {
                                 title: 'Centro Solar de Conexión',
                                 description: 'Energía solar autosuficiente para puntos de conectividad agrícola.',
-                                image: '/images/centro-solar.webp',
+                                image: '/images/agro-solar.webp',
                             },
                             {
                                 title: 'Red de Energía y Conectividad',
                                 description: 'Integración de redes energéticas y de datos para fincas tecnificadas.',
-                                image: '/images/red-energia.webp',
+                                image: '/images/agro-red-energia.webp',
                             },
                             {
                                 title: 'Red Segura Satelital',
                                 description: 'Transmisión de datos agrícolas segura y cifrada.',
-                                image: '/images/red-segura.webp',
+                                image: '/images/agro-red-segura.webp',
                             },
                             {
                                 title: 'Certificación de Enlaces Satelitales',
                                 description: 'Verificación técnica de enlaces para proyectos rurales.',
-                                image: '/images/certificacion-satelital.webp',
+                                image: '/images/agro-certificacion.webp',
                             },
                             {
                                 title: 'Academia Satelital Soingtel',
                                 description: 'Capacitación del servicio satelital.',
-                                image: '/images/academia-satelital.webp',
+                                image: '/images/agro-academia.webp',
                             },
                             {
                                 title: 'Panel de Control Soingtel',
                                 description: 'Gestión centralizada de equipos y consumo satelital.',
-                                image: '/images/panel-control.webp',
+                                image: '/images/agro-panel.webp',
                             },
                             {
                                 title: 'Soporte Remoto Satelital',
                                 description: 'Asistencia técnica remota desde cualquier punto del país.',
-                                image: '/images/soporte-remoto.webp',
+                                image: '/images/agro-soporte.webp',
                             },
                             {
                                 title: 'Operaciones Técnicas en Campo',
                                 description: 'Acompañamiento técnico especializado y certificado para instalación, configuración, mantenimiento y continuidad operativa de sus servicios de conectividad.',
-                                image: '/images/torre-telecomunicaciones.webp',
+                                image: '/images/agro-tecnico.webp',
                             },
                             {
                                 title: 'Kit Satelital de Emergencia',
                                 description: 'Conectividad portátil para contingencias agrícolas.',
-                                image: '/images/kit-satelital-rural.webp',
+                                image: '/images/agro-kit.webp',
                             },
                             {
                                 title: 'Alquiler de Internet Satelital',
                                 description: 'Internet temporal para proyectos o eventos agroindustriales.',
-                                image: '/images/alquiler-internet.webp',
+                                image: '/images/agro-alquiler.webp',
                             },
                         ].map((service, index) => (
                             <div key={index} className="group [perspective:1000px] h-[260px] w-full">

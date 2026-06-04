@@ -10,7 +10,7 @@ function ContactoPage() {
                         {/* Left - Image */}
                         <div className="flex-1">
                             <img
-                                src="/images/contacto-smartphone.webp"
+                                src="/images/contacto-phone.webp"
                                 alt="Smartphone con satélite"
                                 className="w-full max-w-md mx-auto rounded-xl"
                             />

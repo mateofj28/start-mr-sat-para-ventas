@@ -37,7 +37,7 @@ const prefijos = [
     { code: '+34', country: 'España' },
 ]
 
-const WEB3FORMS_KEY = '28844a66-f4ff-4afc-be24-b0f6e647bb5b'
+const WEB3FORMS_KEY = 'b728f220-ffea-43df-aa2a-431358b373db'
 
 function ContactForm() {
     const [formData, setFormData] = useState<FormData>({

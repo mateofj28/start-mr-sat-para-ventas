@@ -15,8 +15,8 @@ function MineroPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?w=1600&h=900&fit=crop"
-                        alt="Comunicación segura en operaciones mineras"
+                        src="https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?w=1600&h=900&fit=crop"
+                        alt="Operación minera con maquinaria pesada"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}
                     />

@@ -15,7 +15,7 @@ function MineroPage() {
                 {/* Background Image */}
                 <div className="absolute inset-0 -z-10">
                     <img
-                        src="https://images.unsplash.com/photo-1470075801209-17f9ec0cada6?w=1600&h=900&fit=crop"
+                        src="https://images.pexels.com/photos/2101137/pexels-photo-2101137.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
                         alt="Operación minera con maquinaria pesada"
                         className={`h-full w-full object-cover transition-all duration-[3000ms] ease-out ${loaded ? 'scale-100 opacity-100' : 'scale-110 opacity-0'
                             }`}

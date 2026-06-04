@@ -30,8 +30,8 @@ function Navbar() {
     return (
         <>
             <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-                    ? 'bg-black/70 backdrop-blur-xl border-b border-white/10 shadow-lg'
-                    : 'bg-transparent'
+                ? 'bg-black/90 backdrop-blur-xl border-b border-white/10 shadow-lg'
+                : 'bg-black/50 backdrop-blur-md'
                 }`}>
                 <nav className="flex items-center justify-between px-8 py-5">
                     {/* Logo */}

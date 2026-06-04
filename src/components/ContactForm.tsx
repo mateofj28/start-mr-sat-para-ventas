@@ -37,6 +37,8 @@ const prefijos = [
     { code: '+34', country: 'España' },
 ]
 
+const WEB3FORMS_KEY = '28844a66-f4ff-4afc-be24-b0f6e647bb5b'
+
 function ContactForm() {
     const [formData, setFormData] = useState<FormData>({
         nombre: '',
@@ -47,6 +49,8 @@ function ContactForm() {
     })
     const [errors, setErrors] = useState<FormErrors>({})
     const [submitted, setSubmitted] = useState(false)
+    const [sending, setSending] = useState(false)
+    const [sendError, setSendError] = useState(false)
 
     const validate = (): boolean => {
         const newErrors: FormErrors = {}
@@ -87,20 +91,41 @@ function ContactForm() {
         }
     }
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
-        if (validate()) {
-            const subject = encodeURIComponent(`Contacto Web - ${formData.nombre}`)
-            const body = encodeURIComponent(
-                `Nombre: ${formData.nombre}\n` +
-                `Email: ${formData.email}\n` +
-                `Teléfono: ${formData.prefijo} ${formData.telefono}\n\n` +
-                `Mensaje:\n${formData.mensaje}`
-            )
-            window.open(`mailto:Info@starlinkcolombia.com.co?subject=${subject}&body=${body}`, '_self')
-            setSubmitted(true)
-            setFormData({ nombre: '', email: '', prefijo: '+57', telefono: '', mensaje: '' })
-            setTimeout(() => setSubmitted(false), 5000)
+        if (!validate()) return
+
+        setSending(true)
+        setSendError(false)
+
+        try {
+            const response = await fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    access_key: WEB3FORMS_KEY,
+                    subject: `Contacto Web - ${formData.nombre}`,
+                    from_name: formData.nombre,
+                    nombre: formData.nombre,
+                    email: formData.email,
+                    telefono: `${formData.prefijo} ${formData.telefono}`,
+                    mensaje: formData.mensaje,
+                }),
+            })
+
+            const result = await response.json()
+
+            if (result.success) {
+                setSubmitted(true)
+                setFormData({ nombre: '', email: '', prefijo: '+57', telefono: '', mensaje: '' })
+                setTimeout(() => setSubmitted(false), 5000)
+            } else {
+                setSendError(true)
+            }
+        } catch {
+            setSendError(true)
+        } finally {
+            setSending(false)
         }
     }
 
@@ -205,10 +230,15 @@ function ContactForm() {
                     {errors.mensaje && <p className="mt-1 text-xs text-red-400">{errors.mensaje}</p>}
                 </div>
 
+                {/* Error de envío */}
+                {sendError && (
+                    <p className="text-sm text-red-400 text-center">Hubo un error al enviar el mensaje. Intente nuevamente.</p>
+                )}
+
                 {/* Enviar */}
                 <div>
-                    <button type="submit" className="btn-primary">
-                        ENVIAR
+                    <button type="submit" disabled={sending} className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed">
+                        {sending ? 'ENVIANDO...' : 'ENVIAR'}
                     </button>
                 </div>
             </form>

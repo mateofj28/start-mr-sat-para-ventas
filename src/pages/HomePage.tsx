@@ -261,7 +261,7 @@ function HomePage() {
                             <Link to="/minero" className="group block">
                                 <div className="overflow-hidden rounded-lg">
                                     <img
-                                        src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&h=250&fit=crop"
+                                        src="https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=400&h=250&fit=crop"
                                         alt="Minería"
                                         className="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-105"
                                     />

@@ -89,12 +89,12 @@ function AgroPage() {
                                 image: '/images/agro-certificacion.webp',
                             },
                             {
-                                title: 'Academia Satelital Soingtel',
+                                title: 'Academia Satelital',
                                 description: 'Capacitación del servicio satelital.',
                                 image: '/images/agro-academia.webp',
                             },
                             {
-                                title: 'Panel de Control Soingtel',
+                                title: 'Panel de Control',
                                 description: 'Gestión centralizada de equipos y consumo satelital.',
                                 image: '/images/agro-panel.webp',
                             },

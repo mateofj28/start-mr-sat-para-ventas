@@ -89,12 +89,12 @@ function MineroPage() {
                                 image: '/images/min-certificacion.webp',
                             },
                             {
-                                title: 'Academia Satelital Soingtel',
+                                title: 'Academia Satelital',
                                 description: 'Capacitación del servicio satelital.',
                                 image: '/images/min-academia.webp',
                             },
                             {
-                                title: 'Panel de Control Soingtel',
+                                title: 'Panel de Control',
                                 description: 'Gestión centralizada de equipos y consumo satelital.',
                                 image: '/images/min-panel.webp',
                             },

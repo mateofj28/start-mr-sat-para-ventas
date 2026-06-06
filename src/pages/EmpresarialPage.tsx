@@ -89,12 +89,12 @@ function EmpresarialPage() {
                                 image: '/images/emp-certificacion.webp',
                             },
                             {
-                                title: 'Academia Satelital Soingtel',
+                                title: 'Academia Satelital',
                                 description: 'Capacitación técnica para equipos internos en manejo y mantenimiento de tecnología satelital.',
                                 image: '/images/emp-academia.webp',
                             },
                             {
-                                title: 'Panel de Control Soingtel',
+                                title: 'Panel de Control',
                                 description: 'Plataforma de monitoreo y gestión de red satelital empresarial.',
                                 image: '/images/emp-panel.webp',
                             },

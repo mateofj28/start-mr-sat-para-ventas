@@ -3,6 +3,7 @@ import Layout from './components/Layout'
 import HomePage from './pages/HomePage'
 import HogarPage from './pages/HogarPage'
 import EmpresarialPage from './pages/EmpresarialPage'
+import MovilesPage from './pages/MovilesPage'
 import AgroPage from './pages/AgroPage'
 import MineroPage from './pages/MineroPage'
 import ContactoPage from './pages/ContactoPage'
@@ -14,6 +15,7 @@ function App() {
                 <Route index element={<HomePage />} />
               <Route path="hogar" element={<HogarPage />} />
               <Route path="empresarial" element={<EmpresarialPage />} />
+                <Route path="moviles" element={<MovilesPage />} />
               <Route path="agro" element={<AgroPage />} />
               <Route path="minero" element={<MineroPage />} />
               <Route path="contacto" element={<ContactoPage />} />

@@ -4,6 +4,7 @@ function Footer() {
     const sectorLinks = [
         { name: 'Hogar', path: '/hogar' },
         { name: 'Empresarial', path: '/empresarial' },
+        { name: 'Móviles', path: '/moviles' },
         { name: 'Agro', path: '/agro' },
         { name: 'Minero', path: '/minero' },
     ]
